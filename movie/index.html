@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
-<script src="script.js" />
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <div id="movie-container"></div>
+    <div class="movie-details-container">
+        <div class="poster">
+            <img id="poster" src="" alt="Movie Poster" />
+        </div>
+        <div class="info">
+            <h1 id="title"></h1>
+            <p id="tagline" class="tagline"></p>
+            <p><strong>Overview:</strong> <span id="overview"></span></p>
+            <p><strong>Release Date:</strong> <span id="release-date"></span></p>
+            <p><strong>Genres:</strong> <span id="genres"></span></p>
+            <p><strong>Runtime:</strong> <span id="runtime"></span> mins</p>
+            <p><strong>Rating:</strong> <span id="rating"></span>/10</p>
+            <p><strong>Language:</strong> <span id="language"></span></p>
+            <p><strong>Country:</strong> <span id="country"></span></p>
+            <p><strong>Production:</strong> <span id="production"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

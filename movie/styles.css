@@ -1,0 +1,22 @@
+.movie-details-container {
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.poster img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.info {
+    flex: 1;
+}
+
+.tagline {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
