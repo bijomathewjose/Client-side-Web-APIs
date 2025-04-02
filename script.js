@@ -51,7 +51,6 @@ function Card({ title, year, genre, id, imagePath }) {
     card.className = 'card';
     const isProd = window.location.hostname === 'bijomathewjose.github.io';
     const BASE_PATH = isProd ? '/Client-side-Web-APIs' : '';
-    console.log(isProd, BASE_PATH)
     card.href = `${BASE_PATH}/movie/index.html?id=${id}`;  // ← Correct path
     const h3 = document.createElement('h3');
     h3.textContent = title;
